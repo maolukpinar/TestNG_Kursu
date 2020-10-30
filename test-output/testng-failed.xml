@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [suit1]">
+  <test thread-count="2" parallel="tests" name="test2(failed)">
+    <parameter name="arananKelime" value="samsung"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Gun06._04_SearchFunctionality">
+        <methods>
+          <include name="SearchFunction"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Gun06._04_SearchFunctionality -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [suit1] -->
